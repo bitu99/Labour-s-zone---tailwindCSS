@@ -1,0 +1,14 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: poppins;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
