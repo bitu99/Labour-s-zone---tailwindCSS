@@ -22,11 +22,11 @@
         </div>
     </nav> -->
 
-    <nav class="absolute z-20 bg-white bg-opacity-60 top-0 hover:cursor-pointer text-3xl md:text-5xl md:p-12 flex p-3 justify-between w-screen h-12 mb-3">
+    <nav class="absolute z-20 bg-white bg-opacity-80 top-0 hover:cursor-pointer text-3xl md:text-5xl md:p-10 flex p-3 justify-between w-screen h-12 mb-3 md:h-8">
         <div class="md:w-1/2 w-5/6 flex items-center" id="nav-part1">
-            <h1 class="w-full text-3xl text-gray-900 font-bold mt-2">Labour's zone</h1>
+            <h1 class="w-full text-3xl text-black font-bold mt-2">Labour's zone</h1>
         </div>
-        <div class="flex h-screen w-fit md:hidden">
+        <div class="flex h-screen w-fit md:w-3/4 md:hidden">
             <!-- //mobile nav -->
             <div class="absolute -z-10 md:z-0 md:fixed right-0 top-0 text-lg m-0 h-full hidden"  id="nav-part2">
                 <ul class="flex-col pt-28 px-6 m-0 items-center justify-center h-screen">
@@ -40,7 +40,7 @@
             <div class="absolute z-70 right-4 hidden md:hidden" id="cancel">&#10005</div>
         </div>
         <!-- desktop nav -->
-        <div class="hidden text-xl md:flex w-1/2 justify-between items-center h-full" id="nav-part3">
+        <div class="hidden text-xl md:flex w-1/2 justify-between items-center h-full md:w-full" id="nav-part3">
             <a href="#section3"><div class="hover:bg-blue-100 p-4 px-7 rounded-xl scroll-smooth">Home</div></a>
             <a href="#section2"><div class="hover:bg-blue-100 p-4 px-7 rounded-xl scroll-smooth">About us</div></a>
             <a href="component/about.html"><div class="hover:bg-blue-100 p-4 px-7 rounded-xl">Contact us</div></a>
@@ -50,7 +50,7 @@
 
     <!-- ---------section1---------- -->
     <section class="relative h-screen w-screen" id="section1">
-        <div class=" text-black w-full h-2/3 absolute bottom-0 pt-64 px-3 bg-gradient-to-t from-white to-white-50 ... text-5xl flex flex-col justify-center items-start text-opacity-55" id="sec1-box1">
+        <div class=" text-black w-full md:w-1/2 h-2/3 md:h-full absolute bottom-0 pt-64 px-3 bg-gradient-to-t from-white to-white-50 ... md:bg-gradient-to-r from-white to-white-50 ... text-5xl flex flex-col justify-center items-start md:pl-44 text-opacity-55" id="sec1-box1">
             Modern platform 
             for desi labour <br>
             <h1 class="text-2xl text-opacity-100 text-gray-900 pt-3">
@@ -59,17 +59,17 @@
             <button class="bg-blue-700 text-white text-xl p-3 px-7 rounded-xl shadow-xl my-5">Get started</button>
         </div>
         <div class="h-full w-full" id="sec1-box2">
-            <img class="h-full bg-opacity-10 object-cover object-right" src="farmer-hero-sec-pic.avif" alt="">
+            <img class="h-full bg-opacity-10 object-cover object-right md:w-full" src="farmer-hero-sec-pic.avif" alt="">
         </div>
     </section>
 
     <!-- ---------section2---------- -->
-    <section class="mt-32 w-screen h-screen" id="section2">
-        <h1 class="text-center text-3xl font-medium mb-10">Services</h1>
-        <div class="w-full h-2/3" id="sec2-box1">
+    <h1 class="text-center text-3xl font-medium mt-32 mb-10">Services</h1>
+    <section class="mt-8 w-screen h-screen md:flex md:justify-around md:items-center" id="section2">
+        <div class="w-full h-2/3 md:w-1/2 md:px-32 md:pl-64" id="sec2-box1">
             <img class="h-full object-cover" src="labour5.svg" alt="">
         </div>
-        <div id="sec2-box2">
+        <div class="md:px-32 md:pr-64" id="sec2-box2">
             <h1 class="text-start text-2xl font-medium p-2 mb-3 ml-4 rounded-xl shadow bg-slate-100 w-fit px-7">Electrician</h1>
             <p class="px-5 text-lg">24x7 availability for all of the professional and dependable electrical jobs that keep property running smoothly and safely.</p>
         </div>
@@ -77,11 +77,11 @@
 
 
     <!-- ---------section3---------- -->
-    <section class="mt-4 w-screen h-screen" id="section3">
-        <div class="w-full h-2/3" id="sec3-box1">
+    <section class="mt-4 w-screen h-screen md:flex md:flex-row-reverse md:justify-around md:items-center" id="section3">
+        <div class="w-full h-2/3 md:w-1/2 md:px-32 md:pr-64" id="sec3-box1">
             <img class="h-full object-cover" src="labour2.svg" alt="">
         </div>
-        <div id="sec3-box2">
+        <div class="md:px-32 md:pl-64" id="sec3-box2">
             <h1 class="text-start text-2xl font-medium p-2 mb-3 ml-4 rounded-xl shadow bg-slate-100 w-fit px-7">Mason</h1>
             <p class="px-5 text-lg">Elevate your work speed with expert Masons and reduce construction costs, just a click away.</p>
         </div>
@@ -89,21 +89,21 @@
 
 
     <!-- ---------section4---------- -->
-    <section class="mt-4 w-screen h-screen" id="section4">
-        <div class="w-full h-2/3" id="sec4-box1">
+    <section class="mt-4 w-screen h-screen md:flex md:justify-around md:items-center" id="section4">
+        <div class="w-full h-2/3 md:w-1/2 md:px-32 md:pl-64" id="sec4-box1">
             <img class="h-full object-cover" src="labour4.svg" alt="">
         </div>
-        <div id="sec4-box2">
+        <div class="md:px-32 md:pr-64" id="sec4-box2">
             <h1 class="text-start text-2xl font-medium p-2 mb-3 ml-4 rounded-xl shadow bg-slate-100 w-fit px-7">Painter</h1>
             <p class="px-5 text-lg">Transform your walls with beauty and finesse, Get the Painting job done by our experts and reshape your dream Home.</p>
         </div>
-        <h1 class="mt-10 text-center text-3xl text-gray-500 mb-10">and many more...</h1>
     </section>
+    <h1 class="mt-10 text-center text-3xl text-gray-500 mb-10">and many more...</h1>
 
     <!-- ----------section5--------- -->
     <section class="flex flex-col items-center mt-4 w-screen h-fit bg-gradient-to-b from-white from-2% via-slate-50 via-25% to-slate-300 to-90% ... mb-0"  id="section5">
         <h1 class="text-center text-3xl font-medium my-24">Jobs</h1>
-        <div class="mb-8 h-fit w-4/5 rounded-xl shadow text-sm font-medium bg-white p-5" id="sec5-box1">
+        <div class="mb-8 h-fit w-4/5 md:w-1/2 md:mb-20 rounded-xl shadow text-sm font-medium bg-white p-5" id="sec5-box1">
             <div class="flex justify-between" id="row-1">
                 <h1 class="text-xl font-mono">Rahul yadav</h1>
                 <button class="rounded shadow p-2 px-4 bg-blue-600 bg-opacity-95 text-white">Apply</button>
@@ -123,7 +123,7 @@
                 <p class="mt-3">Electrician needed.<br>Expert in installing, maintaining, and repairing electrical systems, ensuring safety and efficiency in residential and commercial environments.</p>
             </div>
         </div>
-        <div class="mb-8 h-fit w-4/5 rounded-xl shadow text-sm font-medium bg-white p-5" id="sec5-box2">
+        <div class="mb-8 h-fit w-4/5 md:w-1/2 md:mb-20 rounded-xl shadow text-sm font-medium bg-white p-5" id="sec5-box2">
             <div class="flex justify-between" id="row-1">
                 <h1 class="text-xl font-mono">Sanjay kumar</h1>
                 <button class="rounded shadow p-2 px-4 bg-blue-700 bg-opacity-95 text-white">Apply</button>
@@ -143,7 +143,7 @@
                 <p class="mt-3">Carpenter needed.<br>Skilled in woodworking, constructs structures, and installs fixtures, ensuring precision and durability in residential and commercial settings.</p>
             </div>
         </div>
-        <div class="mb-8 h-fit w-4/5 rounded-xl shadow text-sm font-medium bg-white p-5" id="sec5-box3">
+        <div class="mb-8 h-fit w-4/5 md:w-1/2 md:mb-20 rounded-xl shadow text-sm font-medium bg-white p-5" id="sec5-box3">
             <div class="flex justify-between" id="row-1">
                 <h1 class="text-xl font-mono">Rupesh bajaj</h1>
                 <button class="rounded shadow p-2 px-4 bg-blue-700 bg-opacity-95 text-white">Apply</button>
@@ -165,17 +165,42 @@
         </div>
     </section>
 
-    <section class="w-screen h-screen mt-0 pt-14 bg-gradient-to-b from-slate-300 from-5% via-slate-100 via-30% to-slate-50 to-90% ..." id="contact-us">
+    <section class="w-screen h-screen mt-0 md:pt-28 md:mb-20 pt-14 bg-gradient-to-b from-slate-300 from-5% via-slate-100 via-30% to-white to-90% ..." id="contact-us">
         <h1 class="text-3xl md:text-5xl md:px-10 text-center">Contact Us</h1>
-        <div class="h-5/6 w-full flex flex-col justify-center items-center text-2xl">
-            <form class="md:h-4/5 h-2/3 md:w-2/3 w-4/5 flex flex-col justify-center p-18 items-center gap-5" action="">
-                <input class="w-full md:w-4/5 md:2/3 md:p-6 p-2 text-lg md:text-xl bg-slate-100 rounded shadow-md" type="text" placeholder="Your name">
-                <input class="w-full md:w-4/5 md:2/3 md:p-6 p-2 text-lg md:text-xl bg-slate-100 rounded shadow-md" type="email" name="" id="" placeholder="Your email">
-                <textarea class="w-full md:w-4/5 md:2/3 md:p-6 p-2 text-lg md:text-xl h-full md:h-full bg-slate-100 rounded shadow-md resize-none" name="" id="" resize="none" placeholder="message.."></textarea>
-                <button type="button" onclick="sendEmail()" class="bg-blue-600 text-white p-2 md:p-3 md:text-xl mt-6 md:px-7 px-6 rounded text-lg">Send Message</button>
+        <div class="h-5/6 md:h-full w-full flex flex-col justify-center items-center text-2xl">
+            <form class="md:h-5/6 h-2/3 md:w-2/3 md:mt-8 w-4/5 flex flex-col justify-center p-18 items-center gap-5" action="">
+                <input class="w-full md:w-4/5 md:2/3 md:p-6 p-2 text-lg md:text-xl bg-white rounded-xl shadow" type="text" placeholder="Your name">
+                <input class="w-full md:w-4/5 md:2/3 md:p-6 p-2 text-lg md:text-xl bg-white rounded-xl shadow" type="email" name="" id="" placeholder="Your email">
+                <textarea class="w-full md:w-4/5 md:2/3 md:p-6 p-2 text-lg md:text-xl h-full md:h-full bg-white rounded-xl shadow resize-none" name="" id="" resize="none" placeholder="message.."></textarea>
+                <button type="button" onclick="sendEmail()" class="bg-blue-600 text-white p-2 md:p-3 md:text-xl mt-6 md:px-7 px-6 rounded text-lg md:mb-10">Send Message</button>
             </form>
         </div>
     </section>
+
+    <footer class="relative w-full h-fit md:h-60 p-5 bg-indigo-200 text-black font-bold md:text-lg" id="footer">
+        <div class="flex flex-col gap-6 md:gap-1 md:flex-row justify-between h-fit w-full md:px-10 md:pt-4">
+            <ul class="flex flex-col gap-2 md:gap-4 items-start cursor-pointer">
+                <a href="component/about.html"><li class="hover:opacity-65 cursor-pointer">About us</li></a>
+                <a href="component/privacy.html"><li class="hover:opacity-25 cursor-pointer">Privacy policy</li></a>
+                <a href="component/copyright.html"><li class="hover:opacity-25 cursor-pointer">Copyrights</li></a>
+            </ul>
+
+            <ul class="flex flex-col gap-2 md:gap-4 items-start">
+                    <li class=" hover:opacity-25 cursor-pointer">Terms of Use</li>
+                    <!-- <li class=" hover:opacity-25 cursor-pointer">FAQ's</li> -->
+                    <li class=" hover:opacity-25 cursor-pointer">labourzone@gmail.com</li>
+            </ul>
+
+            <ul class="flex flex-col gap-4 md:gap-6 items-start">
+                    <li class=" hover:opacity-25 cursor-pointer"><i class="fa-brands fa-x-twitter fa-xl"></i></li>
+                    <li class=" hover:opacity-25 cursor-pointer"><i class="fa-brands fa-linkedin-in fa-xl"></i></li>
+                    <li class=" hover:opacity-25 cursor-pointer"><i class="fa-brands fa-instagram fa-xl"></i></li>
+            </ul>
+        </div>
+        <div class="absolute right-2 bottom-2 w-fit h-fit md:p-2 m-0 flex content-end text-sm font-medium">
+            copyright<i class="fa-regular fa-copyright"></i> 2024-2025. All rights reserved
+        </div>
+    </footer>
 
     <script src="script.js"></script>
 </body>
