@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,28 +8,142 @@
     <link rel="stylesheet" href="register.css">
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
+
 <body>
-    <a href="/index.html"><div class="absolute z-70 right-8 top-5 text-4xl font-bold cursor-pointer" id="account-cancel-btn2">&#10005</div></a>
-    <div class="card bg-white text-black shadow-xl hidden md:flex">
-        <form class="bg-white text-black" action="">
-            <input class="text-lg h-10 shadow-md rounded" type="text" placeholder="Name">
-            <input class="text-lg h-10 shadow-md rounded" type="email" placeholder="Email">
-            <input class="text-lg h-10 shadow-md rounded" type="password" name="password" id="password" placeholder="Password">
-            <input class="text-lg h-10 pb-0 mt-10 shadow-md rounded bg-blue-700 text-white " type="submit" value="Register" class="submit-btn">
-            <a href="sign-in.html"><input class="text-lg h-fit pl-0 ml-0 text-wrap underline-offset-4 w-full" type="button" value="Login" class="login-btn"></a>
-        </form>
-    </div>
+    <a href="/index.html">
+        <div class="absolute z-70 right-8 top-5 text-4xl font-bold cursor-pointer" id="account-cancel-btn2">&#10005
+        </div>
+    </a>
+    <section class="w-screen h-fit flex flex-col items-center">
 
-    <div class="md:hidden w-screen h-screen flex justify-center items-center text-lg">
-        <form class="w-4/5 h-2/3 flex justify-center bg-white text-black items-center text-lg shadow rounded-xl" action="">
-            <input class="text-lg h-10 shadow-md rounded" type="text" placeholder="Name">
-            <input class="text-lg h-10 shadow-md rounded" type="email" placeholder="Email">
-            <input class="text-lg h-10 shadow-md rounded" type="password" name="password" id="password" placeholder="Password">
-            <input class="text-lg h-10 pb-0 mt-10 shadow-md rounded bg-blue-700 text-white " type="submit" value="Register" class="submit-btn">
-            <a href="sign-in.html"><input class="text-lg h-fit pl-0 ml-0 text-wrap underline-offset-4 w-full" type="button" value="Login" class="login-btn"></a>
-        </form>
-    </div>
-
+        <div class="card h-fit overflow-auto mt-96 mb-8 text-black border-none hidden md:flex">
+            <form class="border-none text-black" action="">
+                <input class="text-lg h-10 shadow-md rounded" type="text" placeholder="First Name" required>
+                <input class="text-lg h-10 shadow-md rounded" type="text" placeholder="Last Name" required>
+                <input class="text-lg h-10 shadow-md rounded" type="text" row="5" col="20" placeholder="Address" required>
+                <input class="text-lg h-10 shadow-md rounded" type="number" placeholder="Phone no." required>
+                <input class="text-lg h-10 shadow-md rounded" type="email" placeholder="Email" required>
+                <input class="text-lg h-10 shadow-md rounded" type="password" name="password" id="password"
+                    placeholder="Password" required>
+                <input class="text-lg h-10 pb-0 mt-10 shadow-md rounded bg-blue-700 text-white " type="submit"
+                    value="Register" class="submit-btn">
+                <a href="sign-in.html"><input class="text-lg h-fit pl-0 ml-0 text-wrap underline-offset-4 w-full"
+                        type="button" value="Login" class="login-btn"></a>
     
+                <div>
+                    <label>
+                        Who are you :
+                    </label>
+    
+                    <select>
+                        <option value="Labour">Labour</option>
+                        <option value="Mason">Mason</option>
+                        <option value="Carpenter">Carpenter</option>
+                        <option value="Painter">Painter</option>
+                        <option value="Electician">Electician</option>
+                        <option value="Plumber">Plumber</option>
+                        <option value="Welder">Welder</option>
+                        <option value="Foreman">Foreman</option>
+                        <option value="Supervisor">Supervisor</option>
+                        <option value="Engineer">Engineer</option>
+                    </select>
+    
+                    <!-- <label>
+                your skills:
+                </label>
+                <select>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                </select> -->
+                </div>
+                <div>
+                    Experience: <input type="number" name="myBonus">
+                </div>
+                <div>
+                    <label>
+                        Gender :
+                    </label><br>
+                    <input type="radio" value="Male" name="gender"> Male
+                    <input type="radio" value="Female" name="gender"> Female
+                    <input type="radio" value="Other" name="gender"> Other
+    
+                </div>
+    
+            </form>
+        </div>
+    </section>
+
+    <section class="md:hidden w-screen h-fit flex flex-col text-lg">
+
+        <div class="md:hidden w-screen h-screen flex justify-center items-center text-lg">
+            <form class="w-4/5 mt-36 h-fit flex justify-center text-black items-center text-lg"
+                action="">
+                <input class="text-lg h-7 shadow-md rounded" type="text" placeholder="First Name" required>
+                <input class="text-lg h-7 shadow-md rounded" type="text" placeholder="Last Name" required>
+                <input class="text-lg h-7 shadow-md rounded" type="text" row="5" col="20" placeholder="Address" required>
+                <input class="text-lg h-7 shadow-md rounded" type="number" placeholder="Phone no." required>
+                <input class="text-lg h-7 shadow-md rounded" type="email" placeholder="Email" required>
+                <input class="text-lg h-7 shadow-md rounded" type="password" name="password" id="password"
+                    placeholder="Password" required>
+                <input class="text-lg h-7 pb-0 mt-10 shadow-md rounded bg-blue-700 text-white " type="submit"
+                    value="Register" class="submit-btn">
+                <a href="sign-in.html"><input class="text-lg h-fit pl-0 ml-0 text-wrap underline-offset-4 w-full"
+                        type="button" value="Login" class="login-btn"></a>
+            </form>
+        </div>
+    
+        <div class="md:hidden w-screen my-8 h-fit flex flex-col justify-center items-center gap-4 text-lg">
+    
+            <div>
+                <label>
+                    Who are you :
+                </label>
+    
+                <select>
+                    <option value="Labour">Labour</option>
+                    <option value="Mason">Mason</option>
+                    <option value="Carpenter">Carpenter</option>
+                    <option value="Painter">Painter</option>
+                    <option value="Electician">Electician</option>
+                    <option value="Plumber">Plumber</option>
+                    <option value="Welder">Welder</option>
+                    <option value="Foreman">Foreman</option>
+                    <option value="Supervisor">Supervisor</option>
+                    <option value="Engineer">Engineer</option>
+                </select>
+    
+                <!-- <label>
+            your skills:
+            </label>
+            <select>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            </select> -->
+            </div>
+            <div class="text-center">
+                <input type="number" name="myBonus" placeholder="Experience">
+            </div>
+            <div>
+                <label>
+                    Gender :
+                </label><br>
+                <input type="radio" value="Male" name="gender"> Male
+                <input type="radio" value="Female" name="gender"> Female
+                <input type="radio" value="Other" name="gender"> Other
+    
+            </div>
+        </div>
+
+    </section>    
+
 </body>
+
 </html>
