@@ -10,139 +10,63 @@
 </head>
 
 <body>
-    <a href="/index.html">
-        <div class="absolute z-70 right-8 top-5 text-4xl font-bold cursor-pointer" id="account-cancel-btn2">&#10005
-        </div>
-    </a>
-    <section class="w-screen h-fit flex flex-col items-center">
-
-        <div class="card h-fit overflow-auto mt-96 mb-8 text-black border-none hidden md:flex">
-            <form class="border-none text-black" action="">
-                <input class="text-lg h-10 shadow-md rounded" type="text" placeholder="First Name" required>
-                <input class="text-lg h-10 shadow-md rounded" type="text" placeholder="Last Name" required>
-                <input class="text-lg h-10 shadow-md rounded" type="text" row="5" col="20" placeholder="Address" required>
-                <input class="text-lg h-10 shadow-md rounded" type="number" placeholder="Phone no." required>
-                <input class="text-lg h-10 shadow-md rounded" type="email" placeholder="Email" required>
-                <input class="text-lg h-10 shadow-md rounded" type="password" name="password" id="password"
-                    placeholder="Password" required>
-                <input class="text-lg h-10 pb-0 mt-10 shadow-md rounded bg-blue-700 text-white " type="submit"
-                    value="Register" class="submit-btn">
-                <a href="sign-in.html"><input class="text-lg h-fit pl-0 ml-0 text-wrap underline-offset-4 w-full"
-                        type="button" value="Login" class="login-btn"></a>
-    
-                <div>
-                    <label>
-                        Who are you :
-                    </label>
-    
-                    <select>
-                        <option value="Labour">Labour</option>
-                        <option value="Mason">Mason</option>
-                        <option value="Carpenter">Carpenter</option>
-                        <option value="Painter">Painter</option>
-                        <option value="Electician">Electician</option>
-                        <option value="Plumber">Plumber</option>
-                        <option value="Welder">Welder</option>
-                        <option value="Foreman">Foreman</option>
-                        <option value="Supervisor">Supervisor</option>
-                        <option value="Engineer">Engineer</option>
-                    </select>
-    
-                    <!-- <label>
-                your skills:
-                </label>
-                <select>
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
-                </select> -->
-                </div>
-                <div>
-                    Experience: <input type="number" name="myBonus">
-                </div>
-                <div>
-                    <label>
-                        Gender :
-                    </label><br>
-                    <input type="radio" value="Male" name="gender"> Male
-                    <input type="radio" value="Female" name="gender"> Female
-                    <input type="radio" value="Other" name="gender"> Other
-    
-                </div>
-    
-            </form>
-        </div>
-    </section>
-
-    <section class="md:hidden w-screen h-fit flex flex-col text-lg">
-
-        <div class="md:hidden w-screen h-screen flex justify-center items-center text-lg">
-            <form class="w-4/5 mt-36 h-fit flex justify-center text-black items-center text-lg"
-                action="">
-                <input class="text-lg h-7 shadow-md rounded" type="text" placeholder="First Name" required>
-                <input class="text-lg h-7 shadow-md rounded" type="text" placeholder="Last Name" required>
-                <input class="text-lg h-7 shadow-md rounded" type="text" row="5" col="20" placeholder="Address" required>
-                <input class="text-lg h-7 shadow-md rounded" type="number" placeholder="Phone no." required>
-                <input class="text-lg h-7 shadow-md rounded" type="email" placeholder="Email" required>
-                <input class="text-lg h-7 shadow-md rounded" type="password" name="password" id="password"
-                    placeholder="Password" required>
-                <input class="text-lg h-7 pb-0 mt-10 shadow-md rounded bg-blue-700 text-white " type="submit"
-                    value="Register" class="submit-btn">
-                <a href="sign-in.html"><input class="text-lg h-fit pl-0 ml-0 text-wrap underline-offset-4 w-full"
-                        type="button" value="Login" class="login-btn"></a>
-            </form>
-        </div>
-    
-        <div class="md:hidden w-screen my-8 h-fit flex flex-col justify-center items-center gap-4 text-lg">
-    
-            <div>
-                <label>
-                    Who are you :
-                </label>
-    
-                <select>
-                    <option value="Labour">Labour</option>
-                    <option value="Mason">Mason</option>
-                    <option value="Carpenter">Carpenter</option>
-                    <option value="Painter">Painter</option>
-                    <option value="Electician">Electician</option>
-                    <option value="Plumber">Plumber</option>
-                    <option value="Welder">Welder</option>
-                    <option value="Foreman">Foreman</option>
-                    <option value="Supervisor">Supervisor</option>
-                    <option value="Engineer">Engineer</option>
-                </select>
-    
-                <!-- <label>
-            your skills:
-            </label>
-            <select>
-            <option value=""></option>
-            <option value=""></option>
-            <option value=""></option>
-            <option value=""></option>
-            <option value=""></option>
-            <option value=""></option>
-            </select> -->
+    <div class="flex justify-center w-screen sm:w-full mx-auto">
+        <a href="/index.html">
+            <div class="absolute z-70 right-4 top-5 text-4xl font-bold cursor-pointer" id="account-cancel-btn2">&#10005
             </div>
-            <div class="text-center">
-                <input type="number" name="myBonus" placeholder="Experience">
-            </div>
-            <div>
-                <label>
-                    Gender :
-                </label><br>
-                <input type="radio" value="Male" name="gender"> Male
-                <input type="radio" value="Female" name="gender"> Female
-                <input type="radio" value="Other" name="gender"> Other
-    
-            </div>
-        </div>
+        </a>
+        <section class="w-[70%] sm:w-[450px] flex flex-col items-center py-2">
+            <div class="w-full bg-[#1f07ff2a] py-8 rounded-md mb-4 text-black border-none">
+                <form class="w-full flex flex-col gap-y-3 items-center justify-center border-none text-black" action="">
+                    <input class="w-[90%] h-[55px] text-[20px] rounded-[8px] hover:opacity-[0.6] shadow-md ps-[15px]"
+                        type="text" placeholder="First Name" required>
+                    <input class="w-[90%] h-[55px] text-[20px] rounded-[8px] hover:opacity-[0.6] shadow-md ps-[15px]"
+                        type="text" placeholder="Last Name" required>
+                    <input class="w-[90%] h-[55px] text-[20px] rounded-[8px] hover:opacity-[0.6] shadow-md ps-[15px]"
+                        type="text" row="5" col="20" placeholder="Address" required>
+                    <input class="w-[90%] h-[55px] text-[20px] rounded-[8px] hover:opacity-[0.6] shadow-md ps-[15px]"
+                        type="number" placeholder="Phone no." required>
+                    <input class="w-[90%] h-[55px] text-[20px] rounded-[8px] hover:opacity-[0.6] shadow-md ps-[15px]"
+                        type="email" placeholder="Email" required>
+                    <input class="w-[90%] h-[55px] text-[20px] rounded-[8px] hover:opacity-[0.6] shadow-md ps-[15px]"
+                        type="password" name="password" id="password" placeholder="Password" required>
+                    <div class="w-[90%] text-[20px] rounded-[8px] hover:opacity-[0.6] mt-2">
+                        <label class="block text-[18px]">Who are you : </label>
+                        <select class="rounded-[8px] mt-2 w-full h-[55px] outline-none">
+                            <option value="Labour">Profession</option>
+                            <option value="Labour">Labour</option>
+                            <option value="Mason">Mason</option>
+                            <option value="Carpenter">Carpenter</option>
+                            <option value="Painter">Painter</option>
+                            <option value="Electician">Electician</option>
+                            <option value="Plumber">Plumber</option>
+                            <option value="Welder">Welder</option>
+                            <option value="Foreman">Foreman</option>
+                            <option value="Supervisor">Supervisor</option>
+                            <option value="Engineer">Engineer</option>
+                        </select>
+                    </div>
+                    <input type="number" class="shadow-md mt-2 rounded-[8px] ps-[15px] text-[20px] w-[90%] h-[55px]"
+                        placeholder="Experience" name="myBonus">
+                    <div class="w-[90%] text-[20px] mt-2">
+                        <label class="block">Gender :</label>
+                        <div class="mt-1">
+                            <input type="radio" value="Male" name="gender"> Male
+                            <input type="radio" value="Female" name="gender"> Female
+                            <input type="radio" value="Other" name="gender"> Other
+                        </div>
 
-    </section>    
+                    </div>
+                    <input
+                        class="text-lg mt-10 shadow-md rounded px-20 py-2 hover:opacity-[0.6] bg-blue-700 text-white"
+                        type="submit" value="Register" class="submit-btn">
+                    <a href="sign-in.html"><input
+                            class="text-lg pl-0 ml-0 text-wrap underline-offset-4 w-full hover:opacity-[0.6]"
+                            type="button" value="Login" class="login-btn"></a>
+                </form>
+            </div>
+        </section>
+    </div>
 
 </body>
 

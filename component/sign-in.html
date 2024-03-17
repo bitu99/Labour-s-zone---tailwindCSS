@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,27 +8,22 @@
     <link rel="stylesheet" href="register.css">
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
+
 <body>
-    <div class="absolute z-70 right-8 top-5 text-4xl font-bold cursor-pointer" id="account-cancel-btn">&#10005</div>
-    <div class="card hidden md:flex">
-        <form action="">
-            <!-- <input type="text" placeholder="Name"> -->
-            <input type="email" placeholder="Email">
-            <input type="password" name="password" id="password" placeholder="Password">
-            <input type="submit" value="Login" class="submit-btn">
-            <input type="button" value="Login with google" class="login-btn2">
-        </form>
+    <div class="w-[400px] sm:w-[450px]">
+        <div class="absolute z-70 right-8 top-5 text-4xl font-bold cursor-pointer" id="account-cancel-btn">&#10005</div>
+        <div class="flex justify-center items-center text-lg">
+            <form class="flex flex-col gap-y-3 w-4/5 h-2/3 py-8 px-4 bg-blue-100 justify-center items-center text-lg rounded-xl"
+                action="">
+                <input class="w-[90%] h-[55px] text-[20px] rounded-[8px] hover:opacity-[0.6] shadow-md ps-[15px]"
+                    type="email" placeholder="Email">
+                <input class="w-[90%] h-[55px] text-[20px] rounded-[8px] hover:opacity-[0.6] shadow-md ps-[15px]"
+                    type="password" name="password" id="password" placeholder="Password">
+                <input class="text-lg mt-10 mx-5 shadow-md rounded px-20 py-2 hover:opacity-[0.6] bg-blue-700 text-white" type="submit" value="Login" class="submit-btn">
+                <input class="text-lg mx-5 text-blue-800 hover:opacity-[0.6]" type="button" value="Login with google" class="login-btn2">
+            </form>
+        </div>
     </div>
-
-    <div class="md:hidden w-screen h-screen flex justify-center items-center text-lg">
-        <form class="w-4/5 h-2/3 bg-blue-100 flex justify-center items-center text-lg rounded-xl" action="">
-            <input class="text-lg" type="email" placeholder="Email">
-            <input class="text-lg" type="password" name="password" id="password" placeholder="Password">
-            <input class="text-lg mt-10 bg-blue-700 text-white " type="submit" value="Login" class="submit-btn">
-            <input class="text-lg mt-0 text-blue-800 " type="button" value="Login with google" class="login-btn2">
-        </form>
-    </div>
-
-    
 </body>
+
 </html>
